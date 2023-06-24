@@ -31,7 +31,7 @@ for(let i=2; i>0; i--){
 }
 
 
-//to set the current time in alarm clock
+//function to set the current time in alarm clock
 setInterval(function(){
 
      const time = document.querySelector("#ctime");
@@ -72,7 +72,7 @@ setInterval(function(){
 
 },1000);
 
-
+//function to set/clear alarm
 function setAlarm() {
 //to enable setting alarm after the alarm rings or past the alarm set time
     if(isAlarmSet){

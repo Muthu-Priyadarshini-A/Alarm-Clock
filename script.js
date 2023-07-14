@@ -87,7 +87,7 @@ function setAlarm() {
 //alerts user when the set time is invalid
     if( `${selectOption[0].value}`=="Hour" || `${selectOption[0].value}`=="Minute" || `${selectOption[0].value}`=="AM/PM" )
     {
-        alert('Please enter valid time');
+       return alert('Please enter valid time');
     }
 //to disable setting alarm while alarm is already set
     isAlarmSet = true;
